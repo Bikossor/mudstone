@@ -1,0 +1,31 @@
+{
+  "name": "mudstone",
+  "version": "0.1.0",
+  "description": "An engine for creating MUDs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bikossor/mudstone.git"
+  },
+  "keywords": [
+    "mud",
+    "muds",
+    "multi",
+    "user",
+    "dungeon",
+    "textbased",
+    "engine",
+    "rpg",
+    "game",
+    "engine"
+  ],
+  "author": "André Lichtenthäler",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Bikossor/mudstone/issues"
+  },
+  "homepage": "https://github.com/Bikossor/mudstone#readme"
+}
