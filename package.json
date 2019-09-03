@@ -4,7 +4,9 @@
   "description": "An engine for creating MUDs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc server.ts",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -27,5 +29,12 @@
   "bugs": {
     "url": "https://github.com/Bikossor/mudstone/issues"
   },
-  "homepage": "https://github.com/Bikossor/mudstone#readme"
+  "homepage": "https://github.com/Bikossor/mudstone#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "express": "^4.16.4",
+    "internal-ip": "^3.0.1",
+    "public-ip": "^2.4.0",
+    "socket.io": "^2.1.1"
+  }
 }
